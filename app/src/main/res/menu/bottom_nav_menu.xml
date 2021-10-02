@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_shopping_basket_24"
+        android:title="Products" />
+
+    <item
+        android:id="@+id/transactions"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/invest"
+        android:icon="@drawable/ic_invest"
+        android:title="Invest" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Account" />
+
+</menu>
