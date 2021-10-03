@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/productsFragment">
+
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="uz.eposystems.bfahackathon.ui.products.ProductsFragment"
+        android:label="products_fragment"
+        tools:layout="@layout/products_fragment" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="uz.eposystems.bfahackathon.ui.account.AccountFragment"
+        android:label="account_fragment"
+        tools:layout="@layout/account_fragment" />
+    <fragment
+        android:id="@+id/investFragment"
+        android:name="uz.eposystems.bfahackathon.ui.invest.InvestFragment"
+        android:label="invest_fragment"
+        tools:layout="@layout/invest_fragment" />
+    <fragment
+        android:id="@+id/subscriptionsFragment"
+        android:name="uz.eposystems.bfahackathon.ui.subscriptions.SubscriptionsFragment"
+        android:label="subscriptions_fragment"
+        tools:layout="@layout/subscriptions_fragment" />
+</navigation>

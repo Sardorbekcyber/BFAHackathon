@@ -17,5 +17,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val fragmentContainerView = binding.fragmentContainer
+        val bottomNav = binding.bottomNav
+
+
     }
 }
